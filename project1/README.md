@@ -7,9 +7,3 @@ This is a simple calculator written in Python3 which can compute operations with
 Enter a number for the operation you want to complete.<br/> 
 Enter the numbers you would like to operate on.<br/>
 Your result will be printed for you!<br/>
-
-'''python 
-   for i in range(10):
-    print("hello")
-   
-'''
