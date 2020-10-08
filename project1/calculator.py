@@ -1,7 +1,9 @@
 def main():
         
     # Take the number which will decide the operation 
-    operation = int(input("Please choose a number to complete an operation (on 2 numbers): \n 1: Addition\n 2: Subtraction\n 3: Mutiplication\n 4: Division\n 5: Compute Power To\n 6: Add 3 numbers\n 7: Mutiply 3 numbers\n 8: Subtract 3 numbers\n Enter here: "))
+    operation = int(input("Please choose a number to complete an operation (on 2 numbers): 
+       \n 1: Addition\n 2: Subtraction\n 3: Mutiplication\n 4: Division\n 5: Compute Power To\n 6: 
+        Add 3 numbers\n 7: Mutiply 3 numbers\n 8: Subtract 3 numbers\n Enter here: "))
     
     # Take int input 
     number1 = int(input("Please enter the first number:"))
