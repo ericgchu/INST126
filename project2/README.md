@@ -8,8 +8,10 @@ You have 10 chances to guess the word by inputting a letter for every chance.<br
 Before you guess, you can see how you're doing so far + amount of chances left.<br/>
 It will look something like....<br/>
 
++++
 You have X lives left and you have used these letters: A B C D E<br/>
 Current Word: A - - - E - -<br/>
 Guess a letter: <br/>
++++
 
 Repeat until you win!
