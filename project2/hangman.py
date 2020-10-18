@@ -63,14 +63,12 @@ def decrypt(ciphertext):
             plaintext += str(chr(ord(ciphertext[i]) + 1))
         i += 1
     return plaintext
-    
 
 def main():
     
     # Chose random word
     words = ["WHDSPQZ" ,"XHO", "TTDBFRT", "QQJYF", "ENQD", "DNPK", "CNTR", "EHWHOD", "TSVMOHOF", "XNOCFQGTM"]
     wordToGuess = words[random.randint(0, len(words)-1)]
-        
     
     # Set vars 
     lives = 10
