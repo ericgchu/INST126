@@ -65,7 +65,6 @@ def decrypt(ciphertext):
     return plaintext
 
 def main():
-    
     # Chose random word
     words = ["WHDSPQZ" ,"XHO", "TTDBFRT", "QQJYF", "ENQD", "DNPK", "CNTR", "EHWHOD", "TSVMOHOF", "XNOCFQGTM"]
     wordToGuess = words[random.randint(0, len(words)-1)]
