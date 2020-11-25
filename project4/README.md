@@ -6,8 +6,8 @@
 
 ## Functions Descriptions:
 
-# Main():
+### Main():
   When main is run it acts as an interface to run a requested method given the user input.
 
-# Find_a_Player(): 
+### Find_a_Player(): 
   This function acts finds multiple players depending on factors a user would input. For example: If I want a player that shoots >30% from the 3 point line, 20% fg percentage, this function would return all the players that meet this requirement. Potentially useful for NBA scouts to create a versatile yet functional team. 
