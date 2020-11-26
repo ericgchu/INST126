@@ -13,4 +13,4 @@
   This function acts finds multiple players depending on factors a user would input. For example: If I want a player that shoots >30% from the 3 point line, 20% fg percentage, this function would return all the players that meet this requirement. Potentially useful for NBA scouts to create a versatile yet functional team. 
 
 ### get_NBA_stats()
-The function won't take any boundaries however rather will have the user characterize them by means of two info orders, in which the program prompts for the year and the players'name for which to return per-game insights.
+The function won't take any boundaries however rather will have the avg minutes per game, avg true shooting, and avg 3 point attempt rate in which the program prompts for the year and the players'position for which to return per-game insights.
