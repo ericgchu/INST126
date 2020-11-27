@@ -18,9 +18,10 @@ Contributors: Eric Chu, Frank Kim, Isaac Santamaria, Nabil Siddiqui
 ### get_player_position_stat()
 The function allows users to input a certain position and will be returned with the avg minutes per game, avg true shooting, and avg 3 point attempt rate in which the position is.
 
-## retrieve_playerstat()
+### retrieve_playerstat()
 This function allows users to input a certain players name as well as input a certain statistic they would like to retrieve. Statistics include minimum points (min), maximum points (max), median points for the season(median), average amount of  points for the season(avg), standard deviation of True Shooting(True Shooting), average 3 Point Attempt rate(avg 3PA), and average minutes per game (avg MPG).
-## Get_team_avg()
+
+### Get_team_avg()
 This function enables users to get the average minutes per game, true shooting, and 3 point attempts rate per game for a specific team as opposed to a specific position.
 
 ## Update #2: 
