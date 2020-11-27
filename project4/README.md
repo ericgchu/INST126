@@ -1,5 +1,7 @@
 # Project 4: Visualizing NBA Player Dataset Statistics.
 
+Contributors: Eric Chu, Frank Kim, Isaac Santamaria, Nabil Siddiqui 
+
 ## Description
  This project focuses on data analysis about each NBA players’ statistics in the league during the 2017-2018 season. Those who would want to use this project would be NBA scouts, NBA fans, fantasy basketball players, basketball lovers, etc. In terms of needs this project would fulfill, the goal of this project is to present users a certain player/list of player suggestions that best fit their needs as well as receive player statistics and position statistics. Users would be able to input multiple aspects such as age, position, true shooting percentage, player efficiency rating, etc. in order to find the player that best fits their statistical needs. The user may be presented a list of multiple players that fit their needs or just one. Along with a suggestion based on data analysis, this project is also able to calculate minimum, maximum, median, mean, standard deviation of statistics such as: True Shooting, 3 Point Attempt rate, Minutes per game for any player they may input. All in all, this project aims to be the ultimate guide for NBA fans to gain insight into each players’ statistics and find what they need in terms of data.
 
