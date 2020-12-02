@@ -27,7 +27,7 @@ This function enables users to get the average minutes per game, true shooting, 
 ## Update #2: 
 
 ### main()
-  The main method now take user input to determine which function should be called. Also the data file is parsed and passed to respective function. 
+  The main method now takes user input to determine which function should be called. Also the data file is parsed and passed to respective function. 
 
 ### find_a_player()
    When this function is called it can either do a thorough player search or a customized user input player find. The thorough player search ask questions on all aspects regarding ability;  player position, minutes played, player efficiency rating, true shooting percentage, 3 Point attempt percentage to find a set of player with matching abilities. 
