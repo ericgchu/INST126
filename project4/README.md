@@ -43,4 +43,10 @@ avg_minutes_per_game = pd.read_csv('FILENAME')
 true_shooting = pd.read_csv('FILENAME')
 3_point_attempt_rate = pd.read_csv('FILENAME')
 
+### retrieve_playerstat()
+This function allows users to input a certain players name, then input a certain statistic they would like to retrieve, and retrieve said statistic.
+
+Statistics include: games played (G), minutes played (MP), player efficiency rating (PER), true shooting percentage (TS%), 3 point attempt rate (3PAr), free throw rate (FTr), offensive rebound percentage (ORB%), defensive rebound percentage (DRB%), total rebound percentage (TRB%), assist percentage (AST%), block percentage (BLK%), steal percentage (STL%), and turnover percentage (TOV%)
+
+
 ## Final Submission: 
