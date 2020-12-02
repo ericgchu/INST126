@@ -26,6 +26,12 @@ This function enables users to get the average minutes per game, true shooting, 
 
 ## Update #2: 
 
+### main()
+  The main method now take user input to determine which function should be called. Also the data file is parsed and passed to respective function. 
+
+### find_a_player()
+  
+
 ### get_player_position_stat()
 
 The game dataset will be retrieved from a website that contains all the statistics and in order to do that we need to import some packages for example the panda library. After importing the library we will call out each function from the dataset.
