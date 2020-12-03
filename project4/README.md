@@ -48,5 +48,10 @@ This function allows users to input a certain players name, then input a certain
 
 Statistics include: games played (G), minutes played (MP), player efficiency rating (PER), true shooting percentage (TS%), 3 point attempt rate (3PAr), free throw rate (FTr), offensive rebound percentage (ORB%), defensive rebound percentage (DRB%), total rebound percentage (TRB%), assist percentage (AST%), block percentage (BLK%), steal percentage (STL%), and turnover percentage (TOV%)
 
+### Get_team_avg
+This function enables users to get the average minutes per game, true shooting, and 3 point attempts rate per game for a specific team as opposed to a specific position.
+This function gets the average or mean for avg mpg, true shooting, abd 3 point attempts column featured in the data set for a specific team. When the function is called a user is asked if they want to get the avg mpg, true shooting, and 3 point shooting for each team. The function will then provide the avg of the specified data for a specific team.
+
+
 
 ## Final Submission: 
