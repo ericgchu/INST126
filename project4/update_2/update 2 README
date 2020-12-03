@@ -1,10 +1,75 @@
-### Update 2 
+###Update 2###
+
+####COMMENTS####
 
 The game dataset will be retrieved from a website that contains all the statistics and in order to do that we need to import some packages for example the panda library 
-import pandas as pd. After that we will call out the functions to reterieve the data from csv file. 
+import pandas as pd. After that we will find the mean for minutes per game, true shooting, and 3-point attempt rate by looking at the position of each player. 
 
-player_data_df = pd.read_csv('FILENAME')
-season_stats_df = pd.read_csv('FILENAME')
-avg_minutes_per_game = pd.read_csv('FILENAME')
-true_shooting = pd.read_csv('FILENAME')
-3_point_attempt_rate = pd.read_csv('FILENAME')
+################### FUNCTIONS #####################
+
+
+def avg_minute_per_game(df):
+    avg = df.groupby('Pos', as_index=False).mean()
+    return avg
+
+def true_shooting(df):
+    ts = df.groupby('Pos', as_index=False).mean()
+    return ts
+
+def three_point_attemp(df):
+    tpa = df.groupby('Pos', as_index=False).mean()
+    return tpa
+
+def get_player_pos_stats(df):
+    avg_min = df[['Pos', 'MP']]
+    ts = df[['Pos', 'TS%']]
+    par = df[['Pos', '3PAr']]
+
+    print("\n*****Here are the Player Position Stats*****\n")
+    
+    print("\nAVERAGE MINUTE PER GAME IS:\n")
+    print(avg_minute_per_game(avg_min))
+
+    print("\nTRUE SHOOTING AVERAGE IS:\n")
+    print(true_shooting(ts))
+
+    print("\n3-POINT ATTEMP RATE AVERAGE IS:\n")
+    print(three_point_attemp(par))
+
+
+
+
+################### MAIN CODE #####################
+
+'''
+
+import pandas as pd 
+
+def main():
+    
+    df = pd.read_csv("nba.csv")
+    
+    choice = int(input("Enter a number ....."))
+    
+    if choice == 2:
+        get_player_pos_stats(df)
+    
+
+main()
+
+
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
