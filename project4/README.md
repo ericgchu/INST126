@@ -34,14 +34,10 @@ This function enables users to get the average minutes per game, true shooting, 
 
 ### get_player_position_stat()
 
-The game dataset will be retrieved from a website that contains all the statistics and in order to do that we need to import some packages for example the panda library. After importing the library we will call out each function from the dataset.
+####COMMENTS####
 
-import pandas as pd. 
-player_data_df = pd.read_csv('FILENAME')
-season_stats_df = pd.read_csv('FILENAME')
-avg_minutes_per_game = pd.read_csv('FILENAME')
-true_shooting = pd.read_csv('FILENAME')
-3_point_attempt_rate = pd.read_csv('FILENAME')
+The game dataset will be retrieved from a website that contains all the statistics and in order to do that we need to import some packages for example the panda library 
+import pandas as pd. After that we will find the mean for minutes per game, true shooting, and 3-point attempt rate by looking at the position of each player. 
 
 ### retrieve_playerstat()
 This function allows users to input a certain players name, then input a certain statistic they would like to retrieve, and retrieve said statistic.
