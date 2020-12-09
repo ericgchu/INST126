@@ -86,6 +86,12 @@ This function gets the average or mean for avg mpg, true shooting, abd 3 point a
 
 ### compute_players()
    This is a new function in which takes multiple params - df, position, minutes, rating, shooting, three_point - to tailor find players that meet the requirements the user wants. It manipulates the dataframe & remove duplicate players to finally display the players meeting the specifications. 
+   
+### retrieve_playerstat()
+This function allows users to input a certain player's first and last name and then input a certain statistic they would like to retrieve. The code will then retrieve said statistic and return it to the user.
+
+Statistics include: games played (G), minutes played (MP), player efficiency rating (PER), true shooting percentage (TS%), 3 point attempt rate (3PAr), free throw rate (FTr), offensive rebound percentage (ORB%), defensive rebound percentage (DRB%), total rebound percentage (TRB%), assist percentage (AST%), block percentage (BLK%), steal percentage (STL%), and turnover percentage (TOV%)
+
 
 
   
