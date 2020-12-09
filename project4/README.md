@@ -57,6 +57,23 @@ This function gets the average or mean for avg mpg, true shooting, abd 3 point a
 
 ### find_a_player()
    When this function is called it can either do a thorough player search or a customized user input player find. The thorough player search ask questions on all aspects regarding ability;  player position, minutes played, player efficiency rating, true shooting percentage, 3 Point attempt percentage to find a set of player with matching abilities. The customized user input is now updated so that the user can request players based on specs on a singular line. Both 'thorough player search' & 'customized user input player find' now both rely on compute_players() to do the heavy lifting as described in the method below. 
+   
+   Example #1: Thorough Player Search
+   
+       Enter player position (PG: Point Guard, PF: Power Forward, SG: Shooting Guard, SF: Small Forward, C: Center, PF: Point Forward): SG
+       Enter minimum minutes played per game(as an int): 1200
+       Enter minimum player efficiency rating (as a float): 13
+       Enter minimum true shooting percentage (as a float [0-1]): .2
+       Enter minimum 3 Point attempt percentage (as a float [0-1]): .3
+   
+       These players match those specs: 
+
+{'Rodney Hood', 'Klay Thompson', 'Kentavious Caldwell-Pope', 'J.J. Redick', 'Jeremy Lamb', 'CJ McCollum', 'Donovan Mitchell', 'Tim Hardaway', 'Bradley Beal', 'Bogdan Bogdanovic', 'Courtney Lee', 'Devin Booker', 'James Harden', 'Eric Gordon', 'Jaylen Brown', 'Marco Belinelli', 'Will Barton', 'Kyle Korver', 'Kent Bazemore', 'Buddy Hield', 'Nicolas Batum', 'Gary Harris', 'Joe Harris', 'Jamal Crawford', 'Lou Williams', 'Jordan Clarkson', 'Victor Oladipo'} 
+   
+   
+   Example #2: Customized User Input Player Find
+   
+   
   
 ### compute_players()
    This is a new function in which takes multiple params - df, position, minutes, rating, shooting, three_point - to tailor find players that meet the requirements the user wants. It manipulates the dataframe & remove duplicate players to finally display the players meeting the specifications. 
