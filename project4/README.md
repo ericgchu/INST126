@@ -51,3 +51,16 @@ This function gets the average or mean for avg mpg, true shooting, abd 3 point a
 
 
 ## Final Submission: 
+
+### main()
+  No updates since last update. The main method continues to take user input to determine which function should be called. Also the data file is opened and passed to respective function. 
+
+### find_a_player()
+   When this function is called it can either do a thorough player search or a customized user input player find. The thorough player search ask questions on all aspects regarding ability;  player position, minutes played, player efficiency rating, true shooting percentage, 3 Point attempt percentage to find a set of player with matching abilities. The customized user input is now updated so that the user can request players based on specs on a singular line. Both 'thorough player search' & 'customized user input player find' now both rely on compute_players() to do the heavy lifting as described in the method below. 
+  
+### compute_players()
+   This is a new function in which takes multiple params - df, position, minutes, rating, shooting, three_point - to tailor find players that meet the requirements the user wants. It manipulates the dataframe & remove duplicate players to finally display the players meeting the specifications. 
+
+
+  
+  
