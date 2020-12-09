@@ -75,7 +75,11 @@ This function gets the average or mean for avg mpg, true shooting, abd 3 point a
        
        Follow the example to input specifications. 
        'Player Position: XX : Minutes Played Per Game: XX : Player Efficiency Rating: XX : True Shooting %: XX : 3-Point Attempt Rate: XX'
-       Enter Here: Player Position: PF : Minutes Played Per Game: 23 : Player Efficiency Rating: 3 : True Shooting %: .4 : 3-Point Attempt Rate: .4
+       
+       Enter Here: 
+       
+       Player Position: PF : Minutes Played Per Game: 23 : Player Efficiency Rating: 3 : True Shooting %: .4 : 3-Point Attempt Rate: .4
+       
        These players match those specs: 
        {'Jonas Jerebko', 'Dorian Finney-Smith', 'P.J. Tucker', 'Davis Bertans', 'Juan Hernangomez', 'Lauri Markkanen', 'Alex Poythress', 'Lance Thomas', 'Quincy Acy', 'Mirza Teletovic', 'Darrell Arthur', 'Dario Saric', 'Nikola Mirotic', 'Alec Peters', 'Luke Kornet', 'Jacob Wiley', 'Dragan Bender', 'Patrick Patterson', 'Ersan Ilyasova', 'Kelly Olynyk', 'Carmelo Anthony', 'Noah Vonleh', 'Kyle Kuzma', 'Omari Johnson', 'Semi Ojeleye', 'Guerschon Yabusele', 'Draymond Green', 'Al-Farouq Aminu', 'Jared Dudley', 'Josh Huestis', 'Marvin Williams', 'Nemanja Bjelica', 'Henry Ellenson', 'Luc Mbah a Moute', 'Ryan Anderson', 'Tyler Cavanaugh', 'Okaro White', 'Anthony Tolliver', 'Maxi Kleber'}
    
