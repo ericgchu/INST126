@@ -66,9 +66,8 @@ This function gets the average or mean for avg mpg, true shooting, abd 3 point a
        Enter minimum true shooting percentage (as a float [0-1]): .2
        Enter minimum 3 Point attempt percentage (as a float [0-1]): .3
    
-       These players match those specs: 
+       These players match those specs: {'Rodney Hood', 'Klay Thompson', 'Kentavious Caldwell-Pope', 'J.J. Redick', 'Jeremy Lamb', 'CJ McCollum', 'Donovan     Mitchell', 'Tim Hardaway', 'Bradley Beal', 'Bogdan Bogdanovic', 'Courtney Lee', 'Devin Booker', 'James Harden', 'Eric Gordon', 'Jaylen Brown', 'Marco Belinelli', 'Will Barton', 'Kyle Korver', 'Kent Bazemore', 'Buddy Hield', 'Nicolas Batum', 'Gary Harris', 'Joe Harris', 'Jamal Crawford', 'Lou Williams', 'Jordan Clarkson', 'Victor Oladipo'} 
 
-{'Rodney Hood', 'Klay Thompson', 'Kentavious Caldwell-Pope', 'J.J. Redick', 'Jeremy Lamb', 'CJ McCollum', 'Donovan Mitchell', 'Tim Hardaway', 'Bradley Beal', 'Bogdan Bogdanovic', 'Courtney Lee', 'Devin Booker', 'James Harden', 'Eric Gordon', 'Jaylen Brown', 'Marco Belinelli', 'Will Barton', 'Kyle Korver', 'Kent Bazemore', 'Buddy Hield', 'Nicolas Batum', 'Gary Harris', 'Joe Harris', 'Jamal Crawford', 'Lou Williams', 'Jordan Clarkson', 'Victor Oladipo'} 
    
    
    Example #2: Customized User Input Player Find
