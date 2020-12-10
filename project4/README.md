@@ -97,5 +97,6 @@ Statistics include: games played (G), minutes played (MP), player efficiency rat
 
 The main focus is to get the player game stats by looking at their positions in the game. We will then figure out the 3-point average, true attempt shooting, and average minutes per game. The code is designed to reterive the mean values for specific colums from the dataset provided.  
 
-
+### get_team_avg()
+The get_team_avg() function calculates the average minutes per game that was played by each player on the team. It also calculates the average 3 point attempt rate per team as well as the average true shooting percentage for each team. 
   
