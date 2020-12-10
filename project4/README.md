@@ -93,6 +93,9 @@ This function allows users to input a certain player's first and last name and t
 Statistics include: games played (G), minutes played (MP), player efficiency rating (PER), true shooting percentage (TS%), 3 point attempt rate (3PAr), free throw rate (FTr), offensive rebound percentage (ORB%), defensive rebound percentage (DRB%), total rebound percentage (TRB%), assist percentage (AST%), block percentage (BLK%), steal percentage (STL%), and turnover percentage (TOV%)
 
 
+### get_player_position_stat()
 
-  
+The main focus is to get the player game stats by looking at their positions in the game. We will then figure out the 3-point average, true attempt shooting, and average minutes per game. The code is designed to reterive the mean values for specific colums from the dataset provided.  
+
+
   
